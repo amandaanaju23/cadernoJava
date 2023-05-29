@@ -1,0 +1,18 @@
+fun main() {
+ print("Qual sua idade: " )
+ val idade= readLine() !!
+ println("sua idade é "+idade)
+  // numeros digitados no teclado sao interpretados como texto
+     //String
+ //convertendo string para Int
+  val num = idade.toInt()
+
+ 
+ if (num  >= 18) {
+   println("voce é maior de idade")
+ }else {
+   println ("voce é menor de idade")
+ }
+
+ 
+}
