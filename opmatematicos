@@ -1,0 +1,29 @@
+fun main() {
+  // operadores matematicos
+  var x = 100
+  var y = 50
+  // exibir a soma de x e y
+  var soma=x+y
+  println("a soma é: "+soma)  
+  // exibir a subtração de x e y
+  var sub=x-y
+  println("a subtracao é: "+sub)
+  // exibir a multiplicação de x e y
+  var mult=x*y
+  println("a multiplicação é: "+mult)
+  // exibir a divisão entre x e y
+  var div=x/y
+  println("a divisão é: "+div)
+  // 
+  var rest=x%y
+  println("O resto da divisão é: "+rest)
+
+  //incremento
+  println("O x é: "+x)
+  ++x
+  println("agora o x é: "+x)
+
+  //decremento
+  --x
+  println("agora o x menos 1 é: "+x)
+}
